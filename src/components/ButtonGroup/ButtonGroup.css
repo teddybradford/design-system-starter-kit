@@ -1,0 +1,7 @@
+.ButtonGroup {
+  display: flex;
+}
+
+.ButtonGroup * + * {
+  margin-left: 0.5rem;
+}
